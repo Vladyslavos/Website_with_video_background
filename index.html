@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Traveling Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+	 <section class="showcase">
+    <header>
+      <h2 class="logo">Travel everywhere !</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="Pexels Videos 1394254.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Discover the World  </h2> 
+      <h3>with us!</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore enim est dicta, dolor quisquam laboriosam illum dolorum quos impedit suscipit soluta. Quo deserunt, temporibus harum minima ratione ut, consequatur! Sapiente.</p>
+      <a href="#">Discover !</a>
+    </div>
+    <ul class="social">
+      <li><a href="#" class="facebook"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"></a></li>
+      <li><a href="#" class="twitter"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"></a></li>
+      <li><a href="#" class="instagram"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="instagram"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Information</a></li>
+      <li><a href="#">Travel-destination</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+	
+
+	<script type="text/javascript">
+		 const menuToggle = document.querySelector('.toggle');
+         const showcase = document.querySelector('.showcase');
+
+         menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active');
+         showcase.classList.toggle('active');
+         })
+	</script>
+</body>
+</html>
