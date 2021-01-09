@@ -1,7 +1,7 @@
 # Website_with_video_background
 
 
-I made this project using HTML, CSS, JavaScript. Background - video, that makes this site dynamic.
+I made this project using: HTML, CSS, JavaScript. Background - video, that makes this site dynamic.
 Result of this project by the link:
 https://vladyslavos.github.io/Website_with_video_background/#
 
