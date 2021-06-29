@@ -1,4 +1,4 @@
-# Website_with_video_background
+<h1 align = "center">Website with video background</h1>
 
 
 I made this project using: HTML, CSS, JavaScript. Background - video, that makes this site dynamic.<br>
